@@ -150,7 +150,7 @@ const Home = () => {
                 <img 
                   alt="Mercedes-Benz S-Class luxury sedan" 
                   className="w-full h-96 object-cover transition-transform duration-500 group-hover:scale-110" 
-                  src="https://storage.googleapis.com/hostinger-horizons-assets-prod/146a1b3c-9425-4b69-8a09-f6c2ecb3458d/76e426fadfc2e97c7de32a36a49a2352.jpg" 
+                  src="/hero-luxury-car.jpg" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                 <div className="absolute bottom-8 left-8 right-8">
@@ -167,7 +167,7 @@ const Home = () => {
                 <img 
                   alt="Cadillac Escalade luxury SUV" 
                   className="w-full h-96 object-cover transition-transform duration-500 group-hover:scale-110" 
-                  src="https://storage.googleapis.com/hostinger-horizons-assets-prod/146a1b3c-9425-4b69-8a09-f6c2ecb3458d/829eb6474d2ae45af8f9b84d81cac549.png" 
+                  src="/Screen Shot 2025-08-10 at 7.08.53 PM copy copy copy copy.png" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                 <div className="absolute bottom-8 left-8 right-8">
