@@ -1,0 +1,6 @@
+## Pages
+- [About MLDLUXURY | Our Story & Commitment](/about): Learn about MLDLUXURY, our mission to provide the highest standard of luxury transportation in NYC, and the values that drive our exceptional service.
+- [Book Your Ride | MLDLUXURY](/booking): Secure your luxury transportation in NYC with our simple and fast booking form. Reserve your vehicle today.
+- [Contact Us | MLDLUXURY](/contact): Get in touch with MLDLUXURY for inquiries, bookings, or special requests. Contact us via phone, email, or our contact form.
+- [Our Fleet | MLDLUXURY - Sedans, SUVs, Limousines](/fleet): Explore the MLDLUXURY fleet of high-end vehicles. Choose from luxury sedans, executive SUVs, stretch limousines, and more for your NYC transportation needs.
+- [Services | MLDLUXURY - Corporate, Airport, Events](/services): Discover the comprehensive luxury transportation services offered by MLDLUXURY in NYC, including airport transfers, corporate travel, and special event chauffeur services.
