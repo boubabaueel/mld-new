@@ -20,7 +20,7 @@ import React from 'react';
         capacity: 3,
         luggage: 2,
         features: ['Leather Interior', 'Wi-Fi', 'Bottled Water'],
-        image: <img  alt="A sleek black Mercedes-Benz S 580 sedan from the rear, parked on an asphalt lot with autumn trees in the background" className="w-full h-64 object-cover rounded-t-lg" src="https://storage.googleapis.com/hostinger-horizons-assets-prod/146a1b3c-9425-4b69-8a09-f6c2ecb3458d/76e426fadfc2e97c7de32a36a49a2352.jpg" />
+        image: <img alt="A sleek black Mercedes-Benz S 580 sedan from the rear, parked on an asphalt lot with autumn trees in the background" className="w-full h-64 object-cover rounded-t-lg" src="/hero-luxury-car.jpg" />
       },
       {
         name: 'Cadillac Escalade',
@@ -28,7 +28,7 @@ import React from 'react';
         capacity: 6,
         luggage: 5,
         features: ['Premium Sound System', 'Ample Legroom', 'Climate Control'],
-        image: <img  alt="A large, imposing black Cadillac Escalade SUV" className="w-full h-64 object-cover rounded-t-lg" src="https://storage.googleapis.com/hostinger-horizons-assets-prod/146a1b3c-9425-4b69-8a09-f6c2ecb3458d/829eb6474d2ae45af8f9b84d81cac549.png" />
+        image: <img alt="A large, imposing black Cadillac Escalade SUV" className="w-full h-64 object-cover rounded-t-lg" src="/Screen Shot 2025-08-10 at 7.08.53 PM copy copy copy copy.png" />
       },
       {
         name: 'Mercedes-Benz Sprinter',
@@ -36,7 +36,7 @@ import React from 'react';
         capacity: 14,
         luggage: 10,
         features: ['High Roof', 'Entertainment System', 'Individual Seating'],
-        image: <img  alt="A custom white Mercedes-Benz Sprinter luxury van" className="w-full h-64 object-cover rounded-t-lg" src="https://storage.googleapis.com/hostinger-horizons-assets-prod/146a1b3c-9425-4b69-8a09-f6c2ecb3458d/d11f20e8280f1013887baf3ddb8c6c69.png" />
+        image: <img alt="A custom white Mercedes-Benz Sprinter luxury van" className="w-full h-64 object-cover rounded-t-lg" src="/Screen Shot 2025-08-10 at 7.08.53 PM copy copy.png" />
       },
       {
         name: 'Rolls Royce Cullinan',
@@ -44,7 +44,7 @@ import React from 'react';
         capacity: 4,
         luggage: 4,
         features: ['Starlight Headliner', 'Champagne Cooler', 'Rear Entertainment System'],
-        image: <img  alt="An elegant white Rolls Royce Cullinan" className="w-full h-64 object-cover rounded-t-lg" src="https://storage.googleapis.com/hostinger-horizons-assets-prod/146a1b3c-9425-4b69-8a09-f6c2ecb3458d/5663ea4a54185aacf1e9f96e1b67db9b.jpg" />
+        image: <img alt="An elegant white Rolls Royce Cullinan" className="w-full h-64 object-cover rounded-t-lg" src="/Screen Shot 2025-08-10 at 7.08.53 PM copy.png" />
       },
       {
         name: 'Cadillac XT6',
