@@ -28,7 +28,7 @@ import React from 'react';
         capacity: 6,
         luggage: 5,
         features: ['Premium Sound System', 'Ample Legroom', 'Climate Control'],
-        image: <img alt="A large, imposing black Cadillac Escalade SUV" className="w-full h-64 object-cover rounded-t-lg" src="/Screen Shot 2025-08-10 at 7.08.53 PM copy copy copy copy.png" />
+        image: <img alt="A large, imposing black Cadillac Escalade SUV" className="w-full h-64 object-cover rounded-t-lg" src="/cadillac escalade.jpg" />
       },
       {
         name: 'Mercedes-Benz Sprinter',
