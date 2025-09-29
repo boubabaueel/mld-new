@@ -167,7 +167,7 @@ const Home = () => {
                 <img 
                   alt="Cadillac Escalade luxury SUV" 
                   className="w-full h-96 object-cover transition-transform duration-500 group-hover:scale-110" 
-                  src="/Screen Shot 2025-08-10 at 7.08.53 PM copy copy copy copy.png" 
+                  src="/cadillac escalade.jpg" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                 <div className="absolute bottom-8 left-8 right-8">
