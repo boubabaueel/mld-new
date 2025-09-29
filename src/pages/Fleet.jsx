@@ -37,6 +37,7 @@ import React from 'react';
         luggage: 10,
         features: ['High Roof', 'Entertainment System', 'Individual Seating'],
         image: <img alt="A custom white Mercedes-Benz Sprinter luxury van" className="w-full h-64 object-cover rounded-t-lg" src="/Screen Shot 2025-08-10 at 7.08.53 PM copy copy.png" />
+        image: <img alt="A luxury Mercedes-Benz Sprinter van with NYC skyline and Brooklyn Bridge at sunset" className="w-full h-64 object-cover rounded-t-lg" src="/u6291929893_image_of_2026_sprinter_in_nyc_--v_7_a8e27141-5886-4a08-9732-3867bcae842e_2.png" />
       },
       {
         name: 'Rolls Royce Cullinan',
