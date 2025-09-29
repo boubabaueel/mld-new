@@ -20,7 +20,7 @@ import React from 'react';
         capacity: 3,
         luggage: 2,
         features: ['Leather Interior', 'Wi-Fi', 'Bottled Water'],
-        image: <img alt="A sleek black Mercedes-Benz S 580 sedan driving through Midtown Manhattan with city lights and skyscrapers" className="w-full h-64 object-cover rounded-t-lg" src="/u6291929893_mercedez_benz_s580_driving_through_midtown_manhat_88c80d60-8911-4d6c-abbd-dd6003168284_2.png" />
+        image: <img alt="A sleek black Mercedes-Benz S 580 sedan from the rear, parked on an asphalt lot with autumn trees in the background" className="w-full h-64 object-cover rounded-t-lg" src="/hero-luxury-car.jpg" />
       },
       {
         name: 'Cadillac Escalade',
