@@ -44,7 +44,7 @@ import React from 'react';
         capacity: 4,
         luggage: 4,
         features: ['Starlight Headliner', 'Champagne Cooler', 'Rear Entertainment System'],
-        image: <img alt="An elegant white Rolls Royce Cullinan" className="w-full h-64 object-cover rounded-t-lg" src="/Screen Shot 2025-08-10 at 7.08.53 PM copy.png" />
+        image: <img alt="An elegant white Rolls Royce Cullinan" className="w-full h-64 object-cover rounded-t-lg" src="/rr copy.jpg" />
       },
       {
         name: 'Cadillac XT6',
