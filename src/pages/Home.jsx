@@ -165,9 +165,9 @@ const Home = () => {
                 transition={{ duration: 0.3 }}
               >
                 <img 
-                  alt="Cadillac Escalade luxury SUV" 
+                  alt="Rolls Royce luxury SUV" 
                   className="w-full h-96 object-cover transition-transform duration-500 group-hover:scale-110" 
-                  src="/cadillac escalade.jpg" 
+                  src="/rr.jpg" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                 <div className="absolute bottom-8 left-8 right-8">
