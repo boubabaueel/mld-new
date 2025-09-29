@@ -28,7 +28,7 @@ import React from 'react';
         capacity: 6,
         luggage: 5,
         features: ['Premium Sound System', 'Ample Legroom', 'Climate Control'],
-        image: <img alt="Professional luxury Cadillac Escalade with chauffeur service" className="w-full h-64 object-cover rounded-t-lg" src="/u6291929893_create_an_image_of_a_2025_cadillac_escalade_and_a_afc065c3-4884-4f6f-bc75-6ec7962b949c_3.png" />
+        image: <img alt="Professional luxury Cadillac Escalade with chauffeur service" className="w-full h-64 object-cover object-center rounded-t-lg" src="/u6291929893_create_an_image_of_a_2025_cadillac_escalade_and_a_afc065c3-4884-4f6f-bc75-6ec7962b949c_3.png" />
       },
       {
         name: 'Mercedes-Benz Sprinter',
