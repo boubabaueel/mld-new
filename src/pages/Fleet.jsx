@@ -85,13 +85,14 @@ import React from 'react';
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                 >
                   <Card className="bg-neutral-900 border-neutral-800 text-white overflow-hidden h-full flex flex-col">
-                    <CardHeader className="p-0">
+                    <div className="relative">
                       {vehicle.image}
-                      <div className="p-6">
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                      <div className="absolute bottom-0 left-0 right-0 p-6">
                         <CardTitle className="text-2xl text-amber-400">{vehicle.name}</CardTitle>
                         <CardDescription className="text-neutral-400 pt-1">{vehicle.description}</CardDescription>
                       </div>
-                    </CardHeader>
+                    </div>
                     <CardContent className="p-6 pt-0 flex-grow">
                       <div className="flex items-center space-x-6 text-neutral-300 mb-4">
                         <span className="flex items-center"><User className="mr-2 text-amber-400" /> {vehicle.capacity} Passengers</span>
