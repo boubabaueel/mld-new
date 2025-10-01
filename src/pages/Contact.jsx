@@ -6,7 +6,6 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Phone, Mail, MapPin, CheckCircle, Loader2 } from 'lucide-react';
-import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -32,22 +31,23 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      // Replace these with your actual EmailJS credentials
-      const result = await emailjs.send(
-        'service_60kdwsj', // Replace with your EmailJS service ID
-        'template_ummak3s', // Replace with your EmailJS template ID
-        {
-          from_name: formData.name,
-          from_email: formData.email,
-          phone: formData.phone,
-          subject: formData.subject,
-          message: formData.message,
-          to_email: 'info@mldluxury.com'
-        },
-        'EGOCLKVYBJ8Oczz1K' // Replace with your EmailJS public key
-      );
+      const formDataToSend = new FormData();
+      formDataToSend.append('name', formData.name);
+      formDataToSend.append('email', formData.email);
+      formDataToSend.append('phone', formData.phone);
+      formDataToSend.append('subject', formData.subject);
+      formDataToSend.append('message', formData.message);
+      formDataToSend.append('_next', window.location.origin + '/#/contact');
+      formDataToSend.append('_captcha', 'false');
 
-      console.log('Email sent successfully:', result);
+      const response = await fetch('https://formsubmit.co/info@mldluxury.com', {
+        method: 'POST',
+        body: formDataToSend
+      });
+
+      if (response.ok) {
+        console.log('Form submitted successfully');
+      }
       setIsSuccess(true);
       setFormData({
         name: '',
@@ -57,7 +57,7 @@ const Contact = () => {
         message: ''
       });
     } catch (error) {
-      console.error('Email send failed:', error);
+      console.error('Form submission failed:', error);
       alert('Failed to send message. Please try again.');
     } finally {
       setIsSubmitting(false);
