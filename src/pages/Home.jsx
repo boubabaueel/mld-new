@@ -209,7 +209,7 @@ const Home = () => {
                 <div className="flex flex-col items-center">
                   <Phone className="w-8 h-8 text-amber-400 mb-4" />
                   <h3 className="text-lg font-medium text-white mb-2">Call Us</h3>
-                  <p className="text-neutral-300">(917) 000-0000</p>
+                  <p className="text-neutral-300">(917) 352-8589</p>
                 </div>
                 <div className="flex flex-col items-center">
                   <Mail className="w-8 h-8 text-amber-400 mb-4" />

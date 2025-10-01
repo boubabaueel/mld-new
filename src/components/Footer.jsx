@@ -26,7 +26,7 @@
               <div>
                  <p className="font-semibold text-lg text-amber-400 tracking-wider">Contact Us</p>
                 <ul className="mt-4 space-y-2 text-neutral-400">
-                  <li>(917) 000-0000</li>
+                  <li>(917) 352-8589</li>
                   <li>info@mldluxury.com</li>
                 </ul>
               </div>

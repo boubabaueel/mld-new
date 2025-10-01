@@ -206,7 +206,7 @@ const Contact = () => {
                     <Phone className="w-8 h-8 text-amber-400 mr-4 mt-1"/>
                     <div>
                         <p className="font-semibold">Call Us</p>
-                        <a href="tel:+19170000000" className="text-neutral-400 hover:text-amber-300 transition">(917) 000-0000</a>
+                        <a href="tel:+19173528589" className="text-neutral-400 hover:text-amber-300 transition">(917) 352-8589</a>
                     </div>
                 </div>
                 <div className="mt-8">
