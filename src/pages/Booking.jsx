@@ -7,7 +7,6 @@ import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Calendar, Clock, Users, MapPin, Mail, Phone, MessageCircle, CheckCircle, Loader2 } from 'lucide-react';
-import emailjs from '@emailjs/browser';
 
 const Booking = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -37,26 +36,30 @@ const Booking = () => {
     setIsSubmitting(true);
 
     try {
-      // Replace these with your actual EmailJS credentials
-      const result = await emailjs.send(
-        'service_60kdwsj', // Replace with your EmailJS service ID
-        'template_7q0dj3e', // Replace with your EmailJS booking template ID
-        {
+      const response = await fetch('https://formsubmit.co/24c3b20d3dd02576159088488f229f40', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
           pickup_date: formData.pickup_date,
           pickup_time: formData.pickup_time,
           passengers: formData.passengers,
           pickup_location: formData.pickup_location,
           dropoff_location: formData.dropoff_location,
-          from_name: formData.name,
-          from_email: formData.email,
+          name: formData.name,
+          email: formData.email,
           phone: formData.phone,
           special_requests: formData.special_requests,
-          to_email: 'info@mldluxury.com'
-        },
-        'EGOCLKVYBJ8Oczz1K' // Replace with your EmailJS public key
-      );
+          _captcha: 'false',
+          _subject: 'New Booking Request - MLDLUXURY'
+        })
+      });
 
-      console.log('Booking email sent successfully:', result);
+      if (!response.ok) {
+        throw new Error('Form submission failed');
+      }
+
       setIsSuccess(true);
       setFormData({
         pickup_date: '',
@@ -70,8 +73,8 @@ const Booking = () => {
         special_requests: ''
       });
     } catch (error) {
-      console.error('Booking email send failed:', error);
-      alert('Failed to submit booking request. Please try again.');
+      console.error('Booking form submission failed:', error);
+      alert('Failed to submit booking request. Please try again or call us directly at (917) 352-8589.');
     } finally {
       setIsSubmitting(false);
     }
