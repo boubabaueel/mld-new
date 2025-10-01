@@ -8,7 +8,7 @@
         <footer className="bg-neutral-900 border-t border-neutral-800 text-white">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
+              <div>
                 <p className="text-xl font-bold tracking-wider text-white">MLD<span className="text-amber-400">LUXURY</span></p>
                 <p className="mt-4 text-neutral-400">
                   Experience unparalleled luxury transportation in New York City.
@@ -42,7 +42,7 @@
             <div>
               <p className="font-semibold text-lg text-amber-400 tracking-wider">Service Areas</p>
               
-              <div className="mt-4 text-sm text-neutral-400">
+              <div className="mt-6 text-sm text-neutral-400">
                 <p className="mb-3 font-medium text-neutral-300">Complete Coverage</p>
                 <div className="grid grid-cols-1 gap-1">
                   <span>Manhattan • Brooklyn • Queens</span>
