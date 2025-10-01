@@ -31,23 +31,25 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      const formDataToSend = new FormData();
-      formDataToSend.append('name', formData.name);
-      formDataToSend.append('email', formData.email);
-      formDataToSend.append('phone', formData.phone);
-      formDataToSend.append('subject', formData.subject);
-      formDataToSend.append('message', formData.message);
-      formDataToSend.append('_next', window.location.origin + '/#/contact');
-      formDataToSend.append('_captcha', 'false');
-
-      const response = await fetch('https://formsubmit.co/info@mldluxury.com', {
+      const response = await fetch('https://formsubmit.co/24c3b20d3dd02576159088488f229f40', {
         method: 'POST',
-        body: formDataToSend
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          subject: formData.subject,
+          message: formData.message,
+          _captcha: 'false'
+        })
       });
 
-      if (response.ok) {
-        console.log('Form submitted successfully');
+      if (!response.ok) {
+        throw new Error('Form submission failed');
       }
+
       setIsSuccess(true);
       setFormData({
         name: '',
@@ -58,7 +60,7 @@ const Contact = () => {
       });
     } catch (error) {
       console.error('Form submission failed:', error);
-      alert('Failed to send message. Please try again.');
+      alert('Failed to send message. Please try again or contact us directly at (917) 352-8589.');
     } finally {
       setIsSubmitting(false);
     }
