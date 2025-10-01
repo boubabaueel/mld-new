@@ -7,6 +7,7 @@ import Services from './pages/Services';
 import Booking from './pages/Booking';
 import Contact from './pages/Contact';
 import Layout from './components/Layout';
+import ScrollToTop from './components/ScrollToTop';
 import { Toaster } from "./components/ui/toaster";
 
 const Sparkles = () => {
@@ -23,6 +24,7 @@ function App() {
   return (
     <HashRouter>
       <Sparkles />
+      <ScrollToTop />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
